@@ -121,3 +121,31 @@ h1{
     font-weight: bold;
     margin-left: 600px;
 }
+.action-container{
+    height: 250px;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    margin-left: 90px;
+    
+}
+.action-card{
+    background-color: #3B82F6;
+    width: 700px;
+    display: flex;
+    padding: 30px 50px;
+    color: #fff;
+    border-radius: 10px;
+    align-items:flex-end;
+}
+.call-title{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.sign-up{
+    border: solid 2px #fff;
+    margin-left: auto;
+}
