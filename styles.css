@@ -149,3 +149,11 @@ h1{
     border: solid 2px #fff;
     margin-left: auto;
 }
+.footer{
+    height: 70px;
+    background-color: #1E2936;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
