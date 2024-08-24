@@ -73,9 +73,11 @@ h1{
     height: 300px;
 }
 .card{
-    border: 2px solid #3B82F6;
+    border: 5px solid #3B82F6;
+    border-radius: 10px;
     height: 120px;
     width: 120px;
+    margin-left: 10px;
 }
 .items{
     display: flex;
@@ -87,5 +89,35 @@ h1{
     text-align: center;
 }
 .item{
-    max-width: 200px;
+    max-width: 150px;
+}
+.middle{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 50px;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.quote{
+    height: 250px;
+    background-color: #E5E6EA;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+}
+.thor{
+    font-style: italic;
+    width: 700px;
+    margin-left: 250px;
+}
+.thunder{
+    font-weight: bold;
+    margin-left: 600px;
 }
